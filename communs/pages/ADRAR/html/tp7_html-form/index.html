@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP 7 - HTML | Formulaire</title>
+    <!--CSS Site-->
+    <link rel="stylesheet" href="../../../../../src/css/style.css" />
+    <!--CSS Page-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="../../index/html_css.html">
+      <button class="btn" type="button">Retour</button>
+    </a>
+
+    <main>
+      <section class="text-w container-col">
+        <h1 class="text-w">Formulaire</h1>
+        <article>
+          <h3>Inscription</h3>
+          <form id="login" method="post" action="">
+            <input
+              type="text"
+              name="loginNom"
+              id="loginNom"
+              placeholder="Nom"
+              autofocus />
+            <input
+              type="text"
+              name="loginPrenom"
+              id="loginPrenom"
+              placeholder="Prenom" />
+            <input
+              type="text"
+              name="loginPseudo"
+              id="loginPseudo"
+              placeholder="Pseudo"
+              required />
+            <input
+              type="email"
+              name="loginEmail"
+              id="loginEmail"
+              placeholder="Email"
+              required />
+            <input
+              type="password"
+              name="loginMdp"
+              id="loginMdp"
+              placeholder="Mot de passe"
+              pattern="{8-10}"
+              required />
+            <input
+              type="password"
+              name="loginMdpSecurity"
+              id="loginMdpSecurity"
+              placeholder="Mot de passe"
+              required />
+            <input class="btn" type="submit" value="S'inscrire" />
+          </form>
+        </article>
+        <article>
+          <h3>Inscription</h3>
+          <form id="log" method="post" action="">
+            <input
+              type="text"
+              name="logPseudo"
+              id="logPseudo"
+              placeholder="Pseudo"
+              required />
+            <input
+              type="password"
+              name="logMdp"
+              id="logMdp"
+              placeholder="Mot de passe" />
+            <label class="container-form">
+              <p>Rester connecter</p>
+              <input type="checkbox" name="checkboxLog" id="checkboxLog" />
+            </label>
+            <input class="btn" type="submit" value="Se connecter" />
+          </form>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

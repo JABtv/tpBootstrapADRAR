@@ -1,0 +1,25 @@
+body {
+  margin: 2em;
+  background-color: #f0f0f0;
+  font-size: 2em;
+}
+
+li {
+  text-align: center;
+}
+
+li:nth-child(even) {
+  background-color: green;
+}
+
+ul:hover {
+  li:nth-child(even) {
+    background-color: white;
+  }
+}
+
+ul:hover {
+  li:nth-child(odd) {
+    background-color: green;
+  }
+}

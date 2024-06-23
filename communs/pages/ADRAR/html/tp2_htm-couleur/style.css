@@ -1,0 +1,41 @@
+body {
+  margin: 2em;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: red;
+  font-size: 3em;
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+  font-size: 2em;
+}
+
+strong {
+  font-weight: normal;
+  color: greenyellow;
+}
+
+em {
+  font-style: normal;
+  font-size: 1.32em;
+  text-decoration: underline;
+  color: orange;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.green {
+  color: green;
+  text-align: right;
+  text-decoration: underline;
+}

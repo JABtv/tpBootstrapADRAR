@@ -1,0 +1,20 @@
+body {
+  margin: 2em;
+  background-color: #f0f0f0;
+}
+
+p {
+  margin-top: 5em;
+}
+
+h1 {
+  text-shadow: 10px -10px 3px #282828;
+}
+
+#red {
+  box-shadow: 0px 0px 50px 10px red;
+}
+
+#yellow {
+  box-shadow: -10px 10px 0px 0px yellow;
+}

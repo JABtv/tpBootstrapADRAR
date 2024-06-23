@@ -1,0 +1,49 @@
+body {
+  margin: 2em;
+  background-color: #f0f0f0;
+}
+
+img {
+  float: right;
+}
+
+/* Titre */
+
+h1 {
+  color: blue;
+}
+h1:hover {
+  color: green;
+}
+
+/* Texte */
+
+p:active {
+  background-color: gray;
+}
+
+span {
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+#small {
+  font-size: small;
+  color: black;
+}
+
+/* Lien */
+
+a {
+  color: orange;
+  margin-left: 2em;
+  font-size: 1.2em;
+}
+
+a:visited {
+  color: gray;
+}
+
+img:hover {
+  display: none;
+}
